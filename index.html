@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link rel="shortcut icon" href="assets/imagenes/JIM_logo.svg">
+    <title>Mi Calculadora</title>
+</head>
+<body>
+
+    <div class="fondo ">
+        <form name="calculadora">
+
+                <input type="text" name="res" value="" autocomplete="off" readonly>
+
+                <input class="neon op" type="reset" value="C">
+               <input class="neon op" type="button" value="(" onclick="document.calculadora.res.value+='('">
+                <input class="neon op" type="button" value=")" onclick="document.calculadora.res.value+=')'">
+                <input class="neon op" type="button" value="/" onclick="document.calculadora.res.value+='/'">
+                <br>
+
+                <input class="neon dig" type="button" value="7" onclick="document.calculadora.res.value+='7'">
+                <input class="neon dig" type="button" value="8" onclick="document.calculadora.res.value+='8'">
+                <input class="neon dig" type="button" value="9" onclick="document.calculadora.res.value+='9'">
+                <input class="neon op" type="button" value="X" onclick="document.calculadora.res.value+='*'">
+                <br>
+
+                <input class="neon dig" type="button" value="4" onclick="document.calculadora.res.value+='4'">
+                <input class="neon dig" type="button" value="5" onclick="document.calculadora.res.value+='5'">
+                <input class="neon dig" type="button" value="6" onclick="document.calculadora.res.value+='6'">
+                <input class="neon op" type="button" value="-" onclick="document.calculadora.res.value+='-'">
+                <br>
+
+                <input class="neon dig" type="button" value="1" onclick="document.calculadora.res.value+='1'">
+                <input class="neon dig" type="button" value="2" onclick="document.calculadora.res.value+='2'">
+                <input class="neon dig" type="button" value="3" onclick="document.calculadora.res.value+='3'">
+                <input class="neon op" type="button" value="+" onclick="document.calculadora.res.value+='+'">
+                <br>
+
+                <input class="neon dig" type="button" value="0" onclick="document.calculadora.res.value+='0'">
+                <input class="neon op" type="button" value="." onclick="document.calculadora.res.value+='.'">
+                <input class="neon op" type="button" value="%" onclick="document.calculadora.res.value+='%'">
+                <input class="neon igu" type="button" value="=" onclick="document.calculadora.res.value=eval(document.calculadora.res.value)">
+
+        </form>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+</body>
+</html>

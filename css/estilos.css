@@ -12,13 +12,13 @@
     margin-left: -150px;  /* width/2 = 300px / 2 */
 
     border-radius: 5px;
-    background: blue;
+    background: red;
   }
 
   form {
       height: 100%;
       width: 100%;
-      margin-left: 3%;
+      margin-left: 7%;
   }
 
   .fondo input[type="text"]{

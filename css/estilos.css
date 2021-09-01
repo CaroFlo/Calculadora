@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.fondo {
+    width: 300px;
+    height: 450px;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    margin-top: -225px;   /* height/2 = 500px / 2 */
+    margin-left: -150px;  /* width/2 = 300px / 2 */
+
+    border-radius: 5px;
+    background: blue;
+  }
+
+  form {
+      height: 100%;
+      width: 100%;
+      margin-left: 3%;
+  }
+
+  .fondo input[type="text"]{
+      width: 100%;
+      height: 20%;
+      cursor: default;
+      font-family: 'Montserrat', sans-serif;
+      background: transparent;
+      color: white;
+      padding: 15px;
+      text-align: right;
+      font-size: 50px;
+      border: 0;
+      outline: none;
+  }
+
+
+
+  .fondo input[type="button"], input[type="reset"] {
+      width: 20%;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      padding: 14px;
+      margin: 3px;
+      border: 0;
+      border-radius: 100%;
+  }
+
+  .fondo .neon{
+    color: #FFFFFF;
+    text-shadow: 0 0 8px #2cd0f0, 0 0 2px #2cd0f0, 0 0 10px #2cd0f0, 0 0 6px #2cd0f0, 0 0 20px #2cd0f0, 0 0 20px #2cd0f0, 0 0 1px #2cd0f0, 0 0 12px #2cd0f0;
+  }
+
+  .dig{
+      background: black !important;
+  }
+
+  .op{
+      background: rgb(83, 75, 75) !important;
+  }
+
+  .igu{
+      background: chartreuse !important;
+  }
